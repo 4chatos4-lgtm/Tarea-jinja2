@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2 - {{ titulo }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Esta es la Variante 1 (Página 2)</h1>
+    <p>Bienvenido, {{ usuario }}. Estás en la segunda página.</p>
+    <a href="{{ url_for('index') }}">Volver al inicio</a>
+</body>
+</body>
+</html>
