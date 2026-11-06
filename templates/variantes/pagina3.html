@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Página 3 - {{ titulo }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
     <h1>Esta es la Variante 2 (Página 3)</h1>
     <p>Bienvenido, {{ usuario }}. Estás en la tercera página.</p>
-    <a href="{{ url_for('index') }}">Volver al inicio</a>
-</body>
+    <a href="../index.html">Volver al inicio</a>
 </body>
 </html>
